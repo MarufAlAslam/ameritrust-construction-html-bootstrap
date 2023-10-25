@@ -101,7 +101,8 @@ button.bg-red:hover {
 }
 
 .field input,
-.field select {
+.field select,
+.field textarea {
   background-color: #3f3f3f;
   border: 1px solid #69727d;
   border-radius: 0;
@@ -192,4 +193,13 @@ iframe {
 
 .hvac {
   width: 200px;
+}
+
+/* other pages */
+.header-all {
+  background-image: linear-gradient(#063c62c3, #063c62c3),
+    url("../img/banner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
