@@ -39,11 +39,13 @@ ul.dropdown-menu.show {
 .bg-red {
   background-color: #c81111 !important;
 }
-a, .btn{
-    transition: 0.4s;
+a,
+.btn {
+  transition: 0.4s;
 }
-a.bg-red:hover, button.bg-red:hover{
-    background-color: #AA0707 !important;
+a.bg-red:hover,
+button.bg-red:hover {
+  background-color: #aa0707 !important;
 }
 .clip::after {
   content: "\f054";
@@ -63,83 +65,96 @@ a.bg-red:hover, button.bg-red:hover{
   padding-right: 70px;
 }
 
-
 /* hero */
-.text-orange{
-    color: #CC9955;
+.text-orange {
+  color: #cc9955;
 }
-.title{
-    font-size: 48px
+.title {
+  font-size: 48px;
 }
-.star{
-    width: 24px;
-}
-
-.rating{
-    width: 100px;
+.star {
+  width: 24px;
 }
 
-.border-btn{
-    border: 2px solid white;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.rating {
+  width: 100px;
 }
 
+.border-btn {
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 
 /* quote */
-.quote-card{
-    padding: 40px;
-    background-color: #202020;
+.quote-card {
+  padding: 40px;
+  background-color: #202020;
 }
-.fs-24{
-    font-size: 24px;
-}
-
-.field input, .field select{
-    background-color: #3F3F3F;
-    border: 1px solid #69727d;
-    border-radius: 0;
-    padding: 14px;
-    color: white;
-    font-size: 18px;
-}
-.field select{
-    color: #69727d;
-}
-.field ::placeholder{
-    color: #69727d;
-    font-weight: 500;
-}
-.fs-24{
-    font-size: 24px;
-}
-.fs-20{
-    font-size: 20px;
+.fs-24 {
+  font-size: 24px;
 }
 
-.text-red{
-    color: #c81111;
+.field input,
+.field select {
+  background-color: #3f3f3f;
+  border: 1px solid #69727d;
+  border-radius: 0;
+  padding: 14px;
+  color: white;
+  font-size: 18px;
 }
-.icon{
-    font-size: 30px;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+.field select {
+  color: #69727d;
+}
+.field ::placeholder {
+  color: #69727d;
+  font-weight: 500;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+
+.text-red {
+  color: #c81111;
+}
+.icon {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 /* blogs */
-.blog-card{
-    background-color: #F4F4F4;
+.blog-card {
+  background-color: #f4f4f4;
 }
-.card-over{
-    position: relative;
-    left: -50px;
+.card-over {
+  position: relative;
+  left: -50px;
+}
+
+/* areas */
+.areas {
+  background-image: linear-gradient(#063c62c3, #063c62c3),
+    url("../img/banner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+iframe{
+    width: 100%;
+    height: 500px;
 }
