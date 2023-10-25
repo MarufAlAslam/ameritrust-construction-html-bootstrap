@@ -134,3 +134,12 @@ a.bg-red:hover, button.bg-red:hover{
     align-items: center;
     border-radius: 50%;
 }
+
+/* blogs */
+.blog-card{
+    background-color: #F4F4F4;
+}
+.card-over{
+    position: relative;
+    left: -50px;
+}
