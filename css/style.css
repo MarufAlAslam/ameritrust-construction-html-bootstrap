@@ -1,0 +1,57 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+header .bg-overlay {
+  background-image: linear-gradient(#063c62c3, #063c62c3),
+    url("../img/banner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+.logo {
+  width: 130px;
+}
+ul.dropdown-menu.show {
+  background: #202020;
+  border-radius: 0;
+}
+.dropdown-item:hover {
+  background-color: black !important;
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1540px;
+  }
+}
+.phone {
+  width: 20px;
+}
+.fw-bolder {
+  font-weight: 900 !important;
+}
+.bg-red {
+  background-color: #c81111;
+}
+.clip::after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  width: 50px;
+  height: calc(100% - 4px);
+  clip-path: polygon(24% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pe-10 {
+  padding-right: 70px;
+}
