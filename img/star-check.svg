@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px"
+    height="25px" viewBox="0 0 25 25">
+    <title>List Star Bullet Icon</title>
+    <g id="List-Star-Bullet-Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checkmark" transform="translate(0.000000, 2.000000)" fill-rule="nonzero">
+            <polygon id="Combined-Shape" fill="#ffffff"
+                points="11.6702817 0 15.3643171 7.20498022 17.9026986 7.58603826 16.5717134 8.88406307 14.3182381 8.54579778 11.6687328 3.37888359 9.01927083 8.54575555 3.28233084 9.40748544 7.37984176 13.4682059 6.40950635 19.1618267 11.6687328 16.4996848 16.9279592 19.1618267 16.3308268 15.6579244 17.6930397 14.3294452 19 22 11.6702817 18.28923 4.34051783 22 5.69539106 14.0484199 0 8.40332796 7.9762007 7.20506913" />
+            <g id="tick-mark-yellow-white" transform="translate(8.000000, 4.000000)" fill="#CC9955">
+                <polygon id="Path"
+                    points="1.7114094 5.92982457 0 7.52631579 5.59060402 13 17 1.59649123 15.4026846 0 5.59060402 9.80701756" />
+            </g>
+        </g>
+    </g>
+</svg>
