@@ -3,7 +3,7 @@
 }
 header .bg-overlay {
   background-image: linear-gradient(#063c62c3, #063c62c3),
-    url("../img/banner.webp");
+    url("../img/banner.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -202,4 +202,26 @@ iframe {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.starbg {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/bigStar.svg");
+  background-size: contain;
+  background-position: 150% center;
+  background-repeat: no-repeat;
+}
+
+.cta{
+  background-image: linear-gradient(#063c62c3, #063c62c3),
+  url("../img/banner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cta.red{
+  background-image: linear-gradient(#c81111, #c81111),url("../img/banner.webp");
 }
