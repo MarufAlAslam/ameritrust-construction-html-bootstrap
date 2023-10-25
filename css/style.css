@@ -239,6 +239,22 @@ iframe {
   padding-top: 600px;
 }
 
+.pt-100{
+  padding-top: 100px;
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+.top.position-relative{
+  z-index: 20;
+}
+.line{
+  height: 2px;
+  width: 100px;
+  background-color: #c81111;
+  margin-top: 30px;
+}
+
 @media screen and (max-width: 767px){
   .title {
     font-size: 30px;
