@@ -34,10 +34,9 @@ html {
   overflow-x: hidden;
 }
 
-@media screen and (min-width: 1600px) {
-  .container {
-    max-width: 1540px;
-  }
+.custom-container{
+  max-width: 1400px;
+  margin: auto;
 }
 
 .phone {
@@ -309,11 +308,130 @@ iframe {
   z-index: 20;
 }
 
-.roofing{
-  
+
+/* roofing services */
+.roofing-services{
+  background: linear-gradient(rgba(2, 42, 71, 0.9), rgba(2, 42, 71, 0.9)),url("../img/services.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+}
+
+.pb-100{
+  padding-bottom: 100px;
+}
+.bg-red.transparent{
+  background: transparent !important;
+  border: 2px solid white !important;
+}
+.bg-red.transparent:hover{
+  background: white !important;
+  border: 2px solid white !important;
+  color: #022A47 !important;
+}
+.service-icon{
+  width: 40px;
 }
 
 
+/* testimonial */
+.testimonial.with-img{
+  background-image: url("../img/testimonial.jpg");
+  background-size: 45%;
+  background-color: #C81211;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 80px 0;
+  padding-left: 45%;
+}
+.px-80{
+  padding: 0 80px;
+}
+
+/* slider */
+.slider-card{
+  background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),url("../img/comma.svg");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: 95% 95%;
+}
+.customer{
+  width: 50px;
+}
+span.check::after {
+  width: 20px;
+  height: 20px;
+  background: green;
+  content: '✓';
+  position: absolute;
+  border-radius: 20px;
+  margin-left: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.slider{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+}
+button.prev-btn.btn.slick-arrow {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+}
+button.next-btn.btn.slick-arrow {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 20;
+}
+.slider-card {
+  position: relative;
+  left: -200px;
+  bottom: -200px;
+  margin-top: -200px;
+}
+.our-process{
+  padding-top: 170px;
+  background-color: #202020;
+}
+.process-card{
+  background-color: #303030;
+  cursor: pointer;
+  position: relative;
+  z-index: 20;
+}
+.process-card:hover{
+  background-color: #c81111;
+}
+span.number{
+  font-size: 55px;
+  font-weight: 900;
+  color: rgb(77, 77, 77);
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+.process-card:hover span.number{
+  color: #B0201C;
+}
+
+.line.div{
+  height: 8px;
+  width: 100%;
+  background-color: #303030;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 @media screen and (max-width: 767px) {
   .title {
     font-size: 30px;
