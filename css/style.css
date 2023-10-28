@@ -456,6 +456,21 @@ span.number{
 .choose-icon{
   width: 50px;
 }
+
+.bg-red.border-black{
+  border: 2px solid black !important;
+}
+
+/* recent-articles */
+.recent-articles{
+  background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),url("../img/financing.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.fs-22{
+  font-size: 22px;
+}
 @media screen and (max-width: 767px) {
   .title {
     font-size: 30px;
