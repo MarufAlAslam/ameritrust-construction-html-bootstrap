@@ -490,6 +490,24 @@ span.number{
 .value-icon{
   width: 50px;
 }
+
+
+/* join */
+.bg-blue{
+  background-color: #063b62 !important;
+}
+
+.fs-48{
+  font-size: 48px;
+}
+
+.submit-btn{
+  background-color: #CC9955;
+  border: 2px solid black;
+  border-radius: 0;
+  color: white;
+  font-weight: 900;
+}
 @media screen and (max-width: 767px) {
   .title {
     font-size: 30px;
