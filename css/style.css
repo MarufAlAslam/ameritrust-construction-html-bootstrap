@@ -589,6 +589,14 @@ span.number {
   .container-sm {
     max-width: 1100px;
   }
+
+  .fs-1 {
+    font-size: 30px !important;
+  }
+
+  .title {
+    font-size: 30px;
+  }
 }
 
 
@@ -698,4 +706,11 @@ span.number {
   .fs-3 {
     font-size: 16px !important;
   }
+
+  .car {
+    position: relative;
+    top: -100px;
+    transform: unset;
+    margin-bottom: -50px;
+}
 }
