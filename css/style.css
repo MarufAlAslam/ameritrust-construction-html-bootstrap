@@ -20,6 +20,9 @@ header .bg-overlay {
   width: 130px;
 }
 
+.rating-logo{
+  width: 180px;
+}
 ul.dropdown-menu.show {
   background: #202020;
   border-radius: 0;
