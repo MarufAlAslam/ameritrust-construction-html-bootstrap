@@ -493,6 +493,9 @@ span.number{
 
 
 /* join */
+.join{
+  background-color: #F6F6F6;
+}
 .bg-blue{
   background-color: #063b62 !important;
 }
