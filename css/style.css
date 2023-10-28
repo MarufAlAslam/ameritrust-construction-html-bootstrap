@@ -601,6 +601,18 @@ span.number {
   .title {
     font-size: 30px;
   }
+
+  .fs-48 {
+    font-size: 30px;
+  }
+
+  .fs-40 {
+    font-size: 26px;
+  }
+
+  .w-75 {
+    width: 100% !important;
+  }
 }
 
 
@@ -621,8 +633,49 @@ span.number {
   .fs-1 {
     font-size: 25px !important;
   }
+
   .col-lg-4.col-md-6.m-auto.mt-lg-0.mt-5 {
     height: auto;
+  }
+
+  .roofing-card {
+    position: unset;
+    left: -100px;
+    z-index: 20;
+    margin-top: 130px;
+  }
+
+  .testimonial.with-img, .whychooseus.with-img {
+    background-image: unset;
+    padding-left: 0;
+  }
+  .px-80 {
+    padding: 20px;
+}
+.slider-card {
+    position: unset;
+    left: -200px;
+    bottom: -200px;
+    margin-top: 0;
+}
+.line.div{
+  display: none;
+}
+footer button.bg-red.rounded-md.btn.fs-20.text-white.fw-bolder.d-flex.gap-3.align-items-center.px-5.py-3.justify-content-center {
+  padding: 17px !important;
+  font-size: 14px;
+}
+.icon {
+  font-size: 20px;
+  min-width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+footer button.bg-dark.btn.fs-20.fw-bolder.d-flex.gap-3.align-items-center.rounded-0.p-0.justify-content-start span {
+  font-size: 12px;
 }
 }
 
@@ -720,4 +773,43 @@ span.number {
     transform: unset;
     margin-bottom: -50px;
   }
+
+  .icon {
+    min-width: 60px;
+    min-height: 60px;
+}
+.pt-400 {
+  padding-top: 400px;
+}
+.roofing .card-body.py-4.px-5 {
+  padding: 16px !important;
+}
+.roofing-services .col-lg-3.col-md-5.text-end.m-auto {
+  text-align: left !important;
+}
+.testimonial .slider-card.p-5.bg-white {
+  padding: 25px !important;
+}
+.easy-financing .col-md-6.text-end {
+  text-align: left !important;
+}
+.join .card-body.p-5 {
+  padding: 20px !important;
+}
+footer button.bg-dark.btn.fs-20.fw-bolder.d-flex.gap-3.align-items-center.rounded-0.p-0.justify-content-start span {
+  font-size: 18px;
+}
+footer .card.bg-transparent.border-2.border-white.px-5.rounded-0.mt-5.position-relative {
+  border: unset;
+}
+.f-icon {
+  width: 35px;
+  height: 35px;
+}
+.footer .col-md-6.mt-auto.text-end {
+  text-align: center !important;
+}
+footer .text-center.d-inline-block.mx-auto.bg-dark.p-2.px-4.f-menus {
+  display: none !important;
+}
 }
