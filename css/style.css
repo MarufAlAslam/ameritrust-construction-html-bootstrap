@@ -471,6 +471,17 @@ span.number{
 .fs-22{
   font-size: 22px;
 }
+
+/* take care */
+.take-care{
+  background: linear-gradient(#c81111c7, #c81111c7),url("../img/take-care.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.py-50{
+  padding: 50px 0;
+}
 @media screen and (max-width: 767px) {
   .title {
     font-size: 30px;
