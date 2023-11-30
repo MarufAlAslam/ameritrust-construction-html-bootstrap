@@ -20,7 +20,7 @@ header .bg-overlay {
   width: 130px;
 }
 
-.rating-logo{
+.rating-logo {
   width: 180px;
 }
 ul.dropdown-menu.show {
@@ -234,8 +234,10 @@ iframe {
 }
 
 .starbg {
-  background: linear-gradient(rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.7)),
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.7)
+    ),
     url("../img/bigStar.svg");
   background-size: contain;
   background-position: 150% center;
@@ -255,7 +257,8 @@ iframe {
 }
 
 .shadow-card {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("../img/air.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url("../img/air.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -283,7 +286,6 @@ iframe {
   margin-top: 30px;
 }
 
-
 .bottom-roofing {
   width: 85%;
   position: absolute;
@@ -305,7 +307,7 @@ iframe {
 }
 
 .bg-red.blue:hover {
-  background-color: #022A47 !important;
+  background-color: #022a47 !important;
 }
 
 .roofing-card {
@@ -314,10 +316,10 @@ iframe {
   z-index: 20;
 }
 
-
 /* roofing services */
 .roofing-services {
-  background: linear-gradient(rgba(2, 42, 71, 0.9), rgba(2, 42, 71, 0.9)), url("../img/services.jpeg");
+  background: linear-gradient(rgba(2, 42, 71, 0.9), rgba(2, 42, 71, 0.9)),
+    url("../img/services.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -336,19 +338,18 @@ iframe {
 .bg-red.transparent:hover {
   background: white !important;
   border: 2px solid white !important;
-  color: #022A47 !important;
+  color: #022a47 !important;
 }
 
 .service-icon {
   width: 40px;
 }
 
-
 /* testimonial */
 .testimonial.with-img {
   background-image: url("../img/testimonial.jpg");
   background-size: 45%;
-  background-color: #C81211;
+  background-color: #c81211;
   background-repeat: no-repeat;
   background-position: left;
   padding: 80px 0;
@@ -361,7 +362,11 @@ iframe {
 
 /* slider */
 .slider-card {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/comma.svg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../img/comma.svg");
   background-size: 100px;
   background-repeat: no-repeat;
   background-position: 95% 95%;
@@ -375,7 +380,7 @@ span.check::after {
   width: 20px;
   height: 20px;
   background: green;
-  content: '✓';
+  content: "✓";
   position: absolute;
   border-radius: 20px;
   margin-left: 15px;
@@ -441,7 +446,7 @@ span.number {
 }
 
 .process-card:hover span.number {
-  color: #B0201C;
+  color: #b0201c;
 }
 
 .line.div {
@@ -453,10 +458,10 @@ span.number {
   transform: translateY(-50%);
 }
 
-
 /* easy financing */
 .easy-financing {
-  background-image: linear-gradient(rgba(2, 42, 71, 0.9), rgba(2, 42, 71, 0.9)), url("../img/financing.jpg");
+  background-image: linear-gradient(rgba(2, 42, 71, 0.9), rgba(2, 42, 71, 0.9)),
+    url("../img/financing.jpg");
 }
 
 .bg-red.white {
@@ -468,7 +473,7 @@ span.number {
 .whychooseus.with-img {
   background-image: url("../img/why-choose-us.jpg");
   background-size: 45%;
-  background-color: #C81211;
+  background-color: #c81211;
   background-repeat: no-repeat;
   background-position: left;
   padding: 80px 0;
@@ -485,7 +490,11 @@ span.number {
 
 /* recent-articles */
 .recent-articles {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/financing.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../img/financing.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -497,7 +506,8 @@ span.number {
 
 /* take care */
 .take-care {
-  background: linear-gradient(#c81111c7, #c81111c7), url("../img/take-care.jpeg");
+  background: linear-gradient(#c81111c7, #c81111c7),
+    url("../img/take-care.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -516,10 +526,9 @@ span.number {
   width: 50px;
 }
 
-
 /* join */
 .join {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 
 .bg-blue {
@@ -531,7 +540,7 @@ span.number {
 }
 
 .submit-btn {
-  background-color: #CC9955;
+  background-color: #cc9955;
   border: 2px solid black;
   border-radius: 0;
   color: white;
@@ -589,7 +598,6 @@ span.number {
 }
 
 @media screen and (max-width: 1200px) {
-
   .container,
   .container-lg,
   .container-md,
@@ -617,7 +625,6 @@ span.number {
     width: 100% !important;
   }
 }
-
 
 @media screen and (max-width: 992px) {
   .title {
@@ -648,38 +655,42 @@ span.number {
     margin-top: 130px;
   }
 
-  .testimonial.with-img, .whychooseus.with-img {
+  .testimonial.with-img,
+  .whychooseus.with-img {
     background-image: unset;
     padding-left: 0;
   }
   .px-80 {
     padding: 20px;
-}
-.slider-card {
+  }
+  .slider-card {
     position: unset;
     left: -200px;
     bottom: -200px;
     margin-top: 0;
-}
-.line.div{
-  display: none;
-}
-footer button.bg-red.rounded-md.btn.fs-20.text-white.fw-bolder.d-flex.gap-3.align-items-center.px-5.py-3.justify-content-center {
-  padding: 17px !important;
-  font-size: 14px;
-}
-.icon {
-  font-size: 20px;
-  min-width: 45px;
-  height: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-}
-footer button.bg-dark.btn.fs-20.fw-bolder.d-flex.gap-3.align-items-center.rounded-0.p-0.justify-content-start span {
-  font-size: 12px;
-}
+  }
+  .line.div {
+    display: none;
+  }
+  footer
+    button.bg-red.rounded-md.btn.fs-20.text-white.fw-bolder.d-flex.gap-3.align-items-center.px-5.py-3.justify-content-center {
+    padding: 17px !important;
+    font-size: 14px;
+  }
+  .icon {
+    font-size: 20px;
+    min-width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  footer
+    button.bg-dark.btn.fs-20.fw-bolder.d-flex.gap-3.align-items-center.rounded-0.p-0.justify-content-start
+    span {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -711,7 +722,8 @@ footer button.bg-dark.btn.fs-20.fw-bolder.d-flex.gap-3.align-items-center.rounde
     flex-direction: column;
   }
 
-  .call.bg-dark .d-flex.flex-row-reverse.mt-5.justify-content-center.align-items-center.gap-4 {
+  .call.bg-dark
+    .d-flex.flex-row-reverse.mt-5.justify-content-center.align-items-center.gap-4 {
     flex-direction: column !important;
   }
 
@@ -728,15 +740,19 @@ footer button.bg-dark.btn.fs-20.fw-bolder.d-flex.gap-3.align-items-center.rounde
     flex-direction: column;
   }
 
-  .dark-footer ul.d-flex.justify-content-center.align-items-center.gap-3.m-0.p-0.list-unstyled {
+  .dark-footer
+    ul.d-flex.justify-content-center.align-items-center.gap-3.m-0.p-0.list-unstyled {
     flex-direction: column;
   }
 
-  .dark-footer ul.d-flex.justify-content-center.align-items-center.gap-3.m-0.p-0.list-unstyled span {
+  .dark-footer
+    ul.d-flex.justify-content-center.align-items-center.gap-3.m-0.p-0.list-unstyled
+    span {
     display: none;
   }
 
-  .social ul.d-flex.justify-content-center.align-items-center.gap-3.m-0.p-0.list-unstyled {
+  .social
+    ul.d-flex.justify-content-center.align-items-center.gap-3.m-0.p-0.list-unstyled {
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -780,39 +796,50 @@ footer button.bg-dark.btn.fs-20.fw-bolder.d-flex.gap-3.align-items-center.rounde
   .icon {
     min-width: 60px;
     min-height: 60px;
-}
-.pt-400 {
-  padding-top: 400px;
-}
-.roofing .card-body.py-4.px-5 {
-  padding: 16px !important;
-}
-.roofing-services .col-lg-3.col-md-5.text-end.m-auto {
-  text-align: left !important;
-}
-.testimonial .slider-card.p-5.bg-white {
-  padding: 25px !important;
-}
-.easy-financing .col-md-6.text-end {
-  text-align: left !important;
-}
-.join .card-body.p-5 {
-  padding: 20px !important;
-}
-footer button.bg-dark.btn.fs-20.fw-bolder.d-flex.gap-3.align-items-center.rounded-0.p-0.justify-content-start span {
-  font-size: 18px;
-}
-footer .card.bg-transparent.border-2.border-white.px-5.rounded-0.mt-5.position-relative {
-  border: unset;
-}
-.f-icon {
-  width: 35px;
-  height: 35px;
-}
-.footer .col-md-6.mt-auto.text-end {
-  text-align: center !important;
-}
-footer .text-center.d-inline-block.mx-auto.bg-dark.p-2.px-4.f-menus {
-  display: none !important;
-}
+  }
+  .pt-400 {
+    padding-top: 400px;
+  }
+  .roofing .card-body.py-4.px-5 {
+    padding: 16px !important;
+  }
+  .roofing-services .col-lg-3.col-md-5.text-end.m-auto {
+    text-align: left !important;
+  }
+  .testimonial .slider-card.p-5.bg-white {
+    padding: 25px !important;
+  }
+  .easy-financing .col-md-6.text-end {
+    text-align: left !important;
+  }
+  .join .card-body.p-5 {
+    padding: 20px !important;
+  }
+  footer
+    button.bg-dark.btn.fs-20.fw-bolder.d-flex.gap-3.align-items-center.rounded-0.p-0.justify-content-start
+    span {
+    font-size: 18px;
+  }
+  footer
+    .card.bg-transparent.border-2.border-white.px-5.rounded-0.mt-5.position-relative {
+    border: unset;
+  }
+  .f-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .footer .col-md-6.mt-auto.text-end {
+    text-align: center !important;
+  }
+  footer .text-center.d-inline-block.mx-auto.bg-dark.p-2.px-4.f-menus {
+    display: none !important;
+  }
+
+  .hide {
+    display: none;
+  }
+  .container.pb-5.mb-5 {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
 }
